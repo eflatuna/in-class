@@ -1,0 +1,35 @@
+*{
+    background-color: gray;
+    color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+h1{
+    background-color: brown;
+    border: 2px solid black;
+    padding: 5px;
+}
+ul{
+    background-color: chocolate;
+}.parag{
+    background-color: aqua;
+}
+h2{
+    background-color: aquamarine;
+}
+.parag h2{
+    background-color: blue;
+
+}
+p{
+    background-color: cadetblue;
+}
+.parag p{
+    background-color: rgb(154, 118, 104);
+}
