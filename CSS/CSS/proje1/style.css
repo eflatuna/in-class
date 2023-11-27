@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.baslik{
+    background-color:#f63232;
+    color: azure;
+    font-size: xx-large;
+    text-align: center;
+    margin:10px;
+    padding:30px;
+}
+
+nav{
+    background-color: rgb(202, 201, 201);
+    border:3px solid gray;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+li{
+    display: inline-block;
+    margin-right: 50px;
+    padding: 30px;
+    font-family:'Roboto', sans-serif;
+    ;
+}
+
+
+
+
+.parag{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.baslik2{
+    color: #f63232;
+    font-family: 'Roboto', sans-serif;
+    font-size:xx-large ;
+    
+}
+footer{
+
+}
+
+
