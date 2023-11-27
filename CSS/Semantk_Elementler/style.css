@@ -1,0 +1,14 @@
+p{
+    background-color: chartreuse;
+}
+
+.baslik {
+    background-color: aquamarine;
+}
+.external{
+    background-color: rgb(43, 52, 226);
+    padding: 10px;
+    font-size: 20px;
+    color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
