@@ -25,7 +25,20 @@
 .box5{
     width:200px;
     height:200px;
-    border:10 px solid crimson;
+    border:30px solid crimson;
     border-radius: 50%;
 
+}
+ul{
+    background-color: gray;
+}
+li{
+    list-style-type:none;
+    display: inline-block;
+    padding: 5px;
+    
+
+}
+.active{
+    border-bottom: 5px solid orange;
 }
