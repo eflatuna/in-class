@@ -41,3 +41,36 @@ a{
     border-radius: 3px;
     margin: 20px;
 }
+.trans{
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.indent{
+    text-indent: 15px;
+}
+.letter{
+    letter-spacing: 3px;
+    text-align: center;
+}
+.word{
+    word-spacing: 10px;
+    text-align: center;
+    background-color: green;
+}
+.line{
+    background-color: crimson;
+    line-height: 1.5;
+    padding: 20px;
+    /* margin: auto; */
+    /* width:40% */
+}
+.shadow{
+    margin: 20px;
+    line-height: 25px;
+    text-shadow: 15px 2px 5px rebeccapurple;
+
+}
+.box {
+    background-color: orange;
+    box-shadow: 5px 10px 2px;
+}
