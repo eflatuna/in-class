@@ -1,4 +1,7 @@
-.app{
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap'); 
+    
+    
+    .app{
     background-color: orange;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -6,3 +9,7 @@
     font-family: 'Nova Square', sans-serif;
 
 }
+.lorem{
+font-family: 'Vina Sans', sans-serif; ;
+}
+
