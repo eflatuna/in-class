@@ -13,3 +13,31 @@
 font-family: 'Vina Sans', sans-serif; ;
 }
 
+.tcolor{
+    color:brown;
+    background-color: beige;
+}
+.alignment{
+    text-align:center;
+    background-color: blue;
+    color: azure;
+}
+
+.align{
+    width:50%;
+    /* margin: auto; */
+
+}
+.decoration{
+    text-decoration:underline overline wavy 3px red;
+    line-height: 2rem;
+
+}
+a{
+    text-decoration: none;
+    background-color: purple;
+    color: pink;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 20px;
+}
