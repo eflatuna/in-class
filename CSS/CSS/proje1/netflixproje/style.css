@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
 body{
     /* background-image:url(./images/background_image.jpg); */
     color: white;
@@ -20,12 +22,13 @@ body{
 }
 #title{
     font-size: 3.1 rem;
-    font-family: 'Sorts Mill Goudy', serif;
+    font-family: 'Bowlby One SC', sans-serif;
     
 }
 .description{
     font-family: 'Sorts Mill Goudy', serif;
-
+    font-style: italic;
+    font-size: 1.5rem;
 }
 
 span{
