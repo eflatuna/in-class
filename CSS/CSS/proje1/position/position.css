@@ -1,0 +1,30 @@
+.main{
+    background-color: aqua;
+    width: 90%;
+    margin: 30px auto;
+}
+.box1{
+    background-color: rgba(226, 43, 144,0.8);
+    width: 100px;
+    height: 100px;
+}
+.box2{
+    background-color: rgba(162, 114, 23,0.8);
+    width: 100px;
+    height: 100px;
+
+}
+.box3{
+    background-color: rgba(43, 226, 141,0.8);
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 100px;
+    right: 100px;
+}
+p{
+    position: sticky;
+}
+body{
+    background-color: brown;
+}
