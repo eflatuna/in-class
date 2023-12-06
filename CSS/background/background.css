@@ -1,0 +1,12 @@
+
+
+.container{
+    border: 2px solid red;
+    width: 20rem;
+    height: 20rem;
+    margin: auto;
+    background-image: url(../img/resim-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
