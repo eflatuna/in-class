@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: linear-gradient(22deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
+}
+body::-webkit-scrollbar {
+    display: none;
+        
+}
+
+
+
+.bg-image {
+    background-image: url(./img/Img_1.png);
+    width: 80%;
+    margin: 2px auto;
+    height: 700px;
+    background-size: cover;
+    box-shadow: 2px 2px 10 px black;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.ground {
+    background-image: url(./img/Img_02.png);
+    width: 150000%;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: left-move 8s linear infinite;
+}
+.car {
+    position: absolute;
+    bottom: 52px;
+    left: 33%;
+    animation: hop-up 0.5s linear infinite alternate;
+}
+
+@keyframes left-move {
+    100% {
+        transform: translate(-200px);
+    }
+
+}
+@keyframes hop-up {
+    0%{
+        transform: translateY(-2px);
+
+    }
+
+    100% {transform: translateY(2px);
+
+    }
+}
