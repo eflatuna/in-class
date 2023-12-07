@@ -24,7 +24,6 @@ body::-webkit-scrollbar {
     height: 700px;
     background-size: cover;
     box-shadow: 2px 2px 10 px black;
-    height: 100vh;
     position: relative;
     overflow: hidden;
 
@@ -48,7 +47,7 @@ body::-webkit-scrollbar {
 
 @keyframes left-move {
     100% {
-        transform: translate(-200px);
+        transform: translate(-2000px);
     }
 
 }
