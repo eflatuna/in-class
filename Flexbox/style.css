@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 2rem;
+
+}
+
+ul {
+    background-color: deeppink;
+    padding: 1rem;
+    /* height: 50vh; */
+    list-style-type: none;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    gap: 3rem;
+    flex-direction: row;
+    gap:1rem 3rem;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+}
+li {
+    background-color: gold;
+    width: 5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+
+
+}
+
+.container {
+    background-color: aquamarine;
+    margin-top: 50px;
+    padding: 1rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 1rem;
+}
+
+.container .box1 {
+    background-color: aqua;
+    /* width: 33.3%; */
+    height: 50px;
+    /* flex:1; */
+    /* width: 100px; */
+    flex-grow: 0;
+    flex: 1 1 20rem;
+    
+}
+.container .box2 {
+background-color: blueviolet;
+    /* width: 33.3%; */
+    height: 50px;
+    /* flex:2; */
+    /* width: 100px; */
+    flex-grow: 0;
+    flex-shrink: 0;
+    /* flex-basis: 200px; */
+    flex: 1 1 20rem;
+
+
+}
+.container .box3 {
+    background-color: bisque;
+    /* width: 33.3%; */
+    height: 50px;
+    /* flex:3; */
+    /* width: 100px; */
+    flex-grow: 0;
+    /* flex-basis: 100px; */
+    flex: 1 1 20rem;
+    flex: 1 1 5rem;
+
+}
+
+.container1 {
+    margin-top: 50px;
+    background-color: burlywood;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+
+
+.container1 *{
+    background-color: chocolate;
+    margin-bottom: .5rem;
+    padding: 1rem;
+}
+
+.container1 header {
+    width: 100%;
+
+}
+
+.container1 footer {
+    width: 100%;
+
+} 
+
+.container1 .left {
+    /* width: 20%; */
+    flex: 1;
+
+}
+
+.container1 main{
+    /* width: 55%; */
+    flex: 4;
+
+}
+
+.container1 .right {
+    /* width: 20%; */
+    flex: 1;
+
+}
