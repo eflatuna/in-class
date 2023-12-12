@@ -23,3 +23,28 @@
     --fs-xlg:3rem;
 
 }
+
+h1 {
+    background-color: var(--primary-color);
+    color: var(--yaziRengi);
+    font-family: var(--ff-dancing);
+    font-size: var(--fs-xlg);
+
+}
+
+p{
+    color: var(--secondary-color);
+    font-family: var(--ff-dancing);
+    
+}
+
+button {
+    background-color: var(--renk4);
+    color: var(--renk3);
+    font-size: var(--fs-lg);
+    font-family: var(--ff-raleway);
+}
+
+h3 {
+    color: var(--renk2);
+}
