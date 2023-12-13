@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows:20% 40% 20% 20% ;
+    grid-template-columns: 30% 50% 20%;
+    grid-template-areas: 
+    "osman osman osman"
+    "ali ali veli"
+    "ece ece ece"
+    "ece ece ece"
+
+}
+
+.box {
+    border: 1px solid red;
+    background-color: bisque;
+    
+}
+
+.box1 {
+    background-color: rgb(237, 181, 25);
+    grid-area: osman;
+}
+
+.box2 {
+    background-color: aqua;
+    grid-area: ali;
+}
+.box3 {
+    background-color: blue;
+    grid-area: veli;
+}
+.box4 {
+    background-color: rgb(38, 255, 0);
+    grid-area: ece;
+}
