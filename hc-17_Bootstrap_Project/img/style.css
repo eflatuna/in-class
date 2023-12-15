@@ -19,7 +19,7 @@
 /*! -------------- 2- CAROUSEL --------------------- */
 
 .carousel-item {
-    max-height: calc(100vh-88px);
+    max-height: calc(100vh - 88px);
 }
 .carousel-caption .btn {
     width: 7rem;
@@ -37,23 +37,24 @@
 
 .carousel-caption {
     /* border: 2px solid red; */
-    margin-bottom: 5rem;
+    bottom: 5rem;
 }
 .carousel-indicators button {
-    color: var(--red) !important;
+    background-color: var(--red) !important;
     padding: 0.1rem !important;
     width: 3rem !important;
 }
-
+/*! -------------- 3- ABOUT SECTION ---------------- */
 
 .bi {
     font-size: 3rem;
 }
-
+/*! -------------- 4- INSTRUCTORS ------------------ */
 
 .card .bi {
     font-size:2rem;
     color: var(--red);
+    transition: all .5s;
 
 }
 .card .bi:hover{
@@ -63,7 +64,7 @@ section#instructor .card {
     transition: all .5s;
 
 }
-section#instructor.card:hover {
+section#instructor .card:hover {
     transform: scale(1.03);
 }
 
