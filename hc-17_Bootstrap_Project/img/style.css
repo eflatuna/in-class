@@ -110,6 +110,13 @@ footer i:hover {
 }
 
 
+.btn-up {
+    position: fixed;
+    bottom: 0;
+    right: 1rem;
+}
+
+
 
 
 

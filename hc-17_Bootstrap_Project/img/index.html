@@ -16,7 +16,7 @@
 		/>
         <link rel="stylesheet" href="./style.css">
 	</head>
-	<body>
+	<body id="body">
         <!-- /*! -------------- 1- NAVBAR ----------------------- */ -->
 
 		<nav class="navbar navbar-expand-lg bg-light">
@@ -424,12 +424,18 @@
                     
                 </article>
                 <article>
-                    &copy 2023 Copyright by Clarusway
+                    &copy 
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script>
+                    Copyright by Clarusway
                 </article>
             </footer>
-        
-        </main>
 
+            <!-- !BUTTON! -->
+            <a href="#body" class="btn-up">
+                <i class="bi bi-arrow-up-circle-fill text-danger"></i>
+            </a>
 
 
 
