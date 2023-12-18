@@ -67,22 +67,49 @@ section#instructor .card {
 section#instructor .card:hover {
     transform: scale(1.03);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*! -------------- 5- COURSES SECTION -------------- */
+section#courses .nav-link.active {
+    background-color: var(--red);
+}
+section#courses .nav-link {
+    color: white;
+}
 
-/*! -------------- 6- CONTACT SECTION -------------- */
+/* <!-- !CONTACT! --> */
+
+
+section#contact .form i {
+    color: var(--red);
+}
+section#contact .form a {
+    color: var(--red);
+    text-decoration: none;
+}
+.btn-submit {
+    background-color: var(--red);
+    color: white;
+    
+}
+.btn-submit:hover {
+    background-color: var(--red);
+    color: white;
+
+}
+
 
 /*! -------------- 7- FOOTER ----------------------- */
+
+footer i {
+    color: white;
+    font-size: 2rem;
+    margin-right: 0.8rem;
+    transition: color .6s;
+}
+footer i:hover {
+    color:var(--red);
+}
+
+
+
+
+
