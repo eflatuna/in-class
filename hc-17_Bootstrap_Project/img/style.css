@@ -4,7 +4,11 @@
 
 *{
     scroll-behavior:smooth
-}
+} 
+
+/* section {
+    scroll-margin-top: 85px;
+} */
 
 
 
