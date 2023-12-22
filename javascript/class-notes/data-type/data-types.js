@@ -77,4 +77,60 @@ console.log(Math.max(34,1,45,3,53,15,13));
 //Match.min verilen birden fayla deger icinden en kucugunu buldurur.
 console.log(Math.min(34,1,45,3,53,15,13));
 
-// random:rastgele  
+// random:rastgele  sayi üretmek icin kullanilir
+//0-1 arasinda sayi üretir
+console.log(Math.random())
+//chaining metodu 
+// let rastgeleSayi=Math.random()
+// console.log(rastgeleSayi)
+// let duzenlenmisHali=rastgeleSayi.toFixed(2)
+// console.log(duzenlenmisHali)
+//bu iki kodu chaining metodu ile tek seferde kullanabiliriz
+console.log(Math.random().toFixed(2));
+
+//math random ile istenilen degerler arasinda sayi üretmek istersek:
+let rNumber=Math.round(Math.random()*1000)
+console.log(rNumber);
+
+//Math pow (power) bir sayinin kuvvetini almka icin kullanilir.
+console.log(Math.pow(5,4));
+console.log(5**15)
+
+//Math.sqrt verilen degerin karakökünü verir.
+let karekok=144**(1/2)
+console.log("karekok" ,karekok);
+console.log(Math.sqrt(56));
+console.log(Math.sqrt(56).toFixed(2));
+console.log(Math.cbrt(125));
+
+// STRING DATA TYPE
+
+// tirnaklar icinde ifade edilen degerler stringdir.
+// stringler harf,isaretler,sayilar
+
+let ad="Javascript dersi ne güzel"
+console.log(ad);
+
+
+console.log(ad);
+console.log(ad[0]); //burada ilk eleman 0dir
+ //immutable özelliktedir yani degistirilmez özelliktedir.
+
+ad[7]="u"
+console.log(ad)
+
+ad="Node.js"
+console.log(ad)
+
+// Escape characters-Kacis Karakterleri ters slash ile birlikte kod olarak görmesin diye gözardi etmesini saglariz.
+// \n yeni bir satira gecmeyi saglar.
+let deger='Merhaba Ayse\`nin odevi'
+console.log(deger)
+let siir="Merhaba yenigün\nNeden sisli bu hava"
+console.log(siir)
+
+// String Birlestirme
+
+// 1.concat metodu
+let adi="Ali"
+let soyad="Güclü"
