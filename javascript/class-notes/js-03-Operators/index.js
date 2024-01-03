@@ -191,3 +191,19 @@ console.log(10n+20n)
 //* 0.1 + 0.2
 //https://0.30000000000000004.com/
 // console.log(0.1 + 0.2)
+
+// const v1 = false || 0 || 12.6 || true || false || null
+// console.log(v1);
+
+// const v2 = false || 0 || undefined || NaN
+// console.log(v2);
+
+// const v3 = 5 && true && true && 0 && ""
+// console.log(v3);
+
+// const v4 = 5 && true && true && 12 && -5
+// console.log(v4);
+
+// // !olumsuzu
+// console.log(!v4);
+// console.log(!v2);
