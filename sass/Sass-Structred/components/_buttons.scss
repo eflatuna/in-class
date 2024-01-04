@@ -1,0 +1,28 @@
+button {
+  padding: 0.5rem;
+  background-color: $navBgColor;
+  border: none;
+  border-radius: 10px;
+  font-size: $myLinkSize;
+  width: 9rem;
+  margin-right: 0.5rem;
+  margin-top: 1.5rem;
+  margin: 0.5rem;
+  &:hover {
+    background-color: $bgColor;
+    cursor: pointer;
+  }
+}
+
+.button-error{
+  @extend .button;
+  background-color: red;
+}
+.button-warning{
+  @extend .button;
+  background-color: yellow;
+}
+.button-success{
+  @extend .button;
+  background-color: green
+}
